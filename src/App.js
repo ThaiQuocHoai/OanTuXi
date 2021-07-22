@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import BaiTapBookingTicket from './components/BaiTapBookingTicket/BaiTapBookingTicket';
+// import DemoPureComponent from './components/DemoPureComponent/DemoPureComponent';
+import OanTuTi from './components/OanTuTi/OanTuTi';
+// import XiNgauComponent from './components/BaiTapGameXucXac/XiNgauComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <XiNgauComponent /> */}
+        <OanTuTi />
+        {/* <BaiTapBookingTicket /> */}
+        {/* <DemoPureComponent /> */}
     </div>
   );
 }
